@@ -13,7 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  ``;
+  `Do ONLY use $x$ or $$x$$ Latex delimiters for math notation, NEVER use [] or \( x \).`;
 
 export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo',
